@@ -1,0 +1,33 @@
+body {
+  font-size: 14px;
+  line-height: normal;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+ main h1 {
+  font-size: 30px;
+  line-height: 42px;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.filter-form h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.products h3 {
+  font-size: 14px;
+  line-height: 18px;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
