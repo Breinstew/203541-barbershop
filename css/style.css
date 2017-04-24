@@ -1,7 +1,7 @@
 html,
 body {
   min-width: 1122px;
-  min-height: 1750px;
+  min-height: 1050px;
   margin:0;
   padding:0;
   font-size: 14px;
@@ -67,10 +67,12 @@ body {
 }
 .gallery {
   width: 460px;
+  margin-bottom: 48px;
+  float: left;
 }
 .gallery .main-pic {
   width: 460px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 .gallery .down-pics {
   width: 460px;
@@ -84,6 +86,51 @@ body {
 }
 .product-info {
   width: 400px;
-  padding-left: 10px;
-  padding-right: 10px;
+  float: right;
+}
+.product-info .availability {
+  padding-top: 23px;
+  margin-bottom: 35px;
+}
+.product-info .availability .available {
+  width: 170px;
+  float: left;
+  background-color: orange;
+  margin-right: 60px;
+}
+.product-info .availability .vendor_code {
+  width: 160px;
+  float: right;
+  background-color: orange;
+}
+.product-info .description {
+  margin-bottom: 38px;
+}
+.product-info .price-item {
+  margin-bottom: 66px;
+}
+
+.main-footer {
+  background-color: black;
+  color: white;
+}
+.main-footer .footer-contacts {
+  width: 320px;
+  float: left;
+  margin-right: 60px;
+  margin-top: 58px;
+  margin-bottom: 39px;
+}
+.main-footer .footer-social {
+  width: 180px;
+  float: left;
+  margin-top: 58px;
+  margin-bottom: 39px;
+
+}
+.main-footer .footer-copyright {
+  width: 160px;
+  float: right;
+  margin-top: 58px;
+  margin-bottom: 39px;
 }
