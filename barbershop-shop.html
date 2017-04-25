@@ -7,7 +7,7 @@
 </head>
 <body>
   <header class="main-header">
-    <div class="container">
+    <div class="container clearfix">
       <div class="shop-logo">
         <a href="#" class="logo">
           <img src="img/Logo.png" width="111" height="24" alt="Барбершоп">
@@ -38,7 +38,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main class="container clearfix">
     <h1>Средства ухода</h1>
     <div class="breadcrumbs">
       <ul>
@@ -57,37 +57,37 @@
     <section class="filter-form">
       <form action="#" method="get">
         <!--Часть формы с перечислением производителей -->
-        <fieldset>
+        <fieldset class="manufacturers">
           <legend>Производители</legend>
           <label>
-            <input type="checkbox" name="manufacturers" value="baxter_of_california" checked>baxter of california
+            <input type="checkbox" name="manufacturers" value="baxter_of_california" checked>baxter of california<br>
           </label>
           <label>
-            <input type="checkbox" name="manufacturers" value="mr_natty">mr natty
+            <input type="checkbox" name="manufacturers" value="mr_natty">mr natty<br>
           </label>
           <label>
-            <input type="checkbox" name="manufacturers" value="suavecito" checked>suavecito
+            <input type="checkbox" name="manufacturers" value="suavecito" checked>suavecito<br>
           </label>
           <label>
-            <input type="checkbox" name="manufacturers" value="malin_goetz">malin-goetz
+            <input type="checkbox" name="manufacturers" value="malin_goetz">malin-goetz<br>
           </label>
           <label>
-            <input type="checkbox" name="manufacturers" value="murrays">murray's
+            <input type="checkbox" name="manufacturers" value="murrays">murray's<br>
           </label>
           <label>
             <input type="checkbox" name="manufacturers" value="american_crew" checked>american crew
           </label>
         </fieldset>
         <!--Часть формы с перечислением группы товаров -->
-        <fieldset>
+        <fieldset class="product-groups">
           <legend>Группы товаров</legend>
           <label>
             <input type="radio" name="product-groups" value="shaving_accessories">
-            бритвенные принадлежности
+            бритвенные принадлежности<br>
           </label>
           <label>
             <input type="radio" name="product-groups" value="care_products" checked>
-            средсва для ухода
+            средсва для ухода<br>
           </label>
           <label>
             <input type="radio" name="product-groups" value="accessories">
@@ -187,7 +187,7 @@
     </section>
   </main>
 
-  <footer class="main-footer">
+  <footer class="main-footer clearfix">
     <div class="container">
       <section class="footer-contacts">
         Барбершоп «Бородинский»<br>
